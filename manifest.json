@@ -1,0 +1,232 @@
+{
+  "manifest_version": 3,
+  "name": "Hephaistos",
+  "version": "1.0",
+  "description": "Ticket assistance by mGavalle",
+  "permissions": [
+	"storage",
+	"activeTab",
+	"scripting",
+	"contextMenus",
+	"tabs"
+	],
+  "content_scripts": [
+	{
+      "matches": ["https://wtts.telekom.de/wtts/forms/ars-etts.telekom.de/eTTS%3AMain/*"], 
+      "js": ["stater.js"]
+    },
+	{
+      "matches": ["https://wtts.telekom.de/wtts/forms/ars-etts.telekom.de/eTTS:Main/*"], 
+      "js": ["stater.js"]
+    },
+	{
+      "matches": ["https://wtts.telekom.de/wtts/forms/ars-etts/eTTS%3AMain/*"], 
+      "js": ["stater.js"]
+    },
+	{
+      "matches": ["https://wtts.telekom.de/wtts/forms/ars-etts/eTTS:Main/*"], 
+      "js": ["stater.js"]
+    },
+	{
+      "matches": ["https://wtts.telekom.de/wtts/forms/ars-etts/eTTS%3AMain/Web/*"], 
+      "js": ["stater.js"]
+    },
+	{
+      "matches": ["https://wtts.telekom.de/wtts/forms/ars-etts/eTTS:Main/Web/*"], 
+      "js": ["stater.js"]
+    },
+	{
+      "matches": ["https://wtts.telekom.de/wtts/forms/ars-etts.telekom.de/eTTS%3AMain/*"], 
+      "js": ["gffestgestellt.js"]
+    },
+	{
+      "matches": ["https://wtts.telekom.de/wtts/forms/ars-etts.telekom.de/eTTS:Main/*"], 
+      "js": ["gffestgestellt.js"]
+    },
+	{
+      "matches": ["https://wtts.telekom.de/wtts/forms/ars-etts/eTTS%3AMain/*"], 
+      "js": ["gffestgestellt.js"]
+    },
+	{
+      "matches": ["https://wtts.telekom.de/wtts/forms/ars-etts/eTTS:Main/*"], 
+      "js": ["gffestgestellt.js"]
+    },
+	{
+      "matches": ["https://wtts.telekom.de/wtts/forms/ars-etts/eTTS%3AMain/Web/*"], 
+      "js": ["gffestgestellt.js"]
+    },
+	{
+      "matches": ["https://wtts.telekom.de/wtts/forms/ars-etts/eTTS:Main/Web/*"], 
+      "js": ["gffestgestellt.js"]
+    },
+	{
+      "matches": ["https://wtts.telekom.de/wtts/forms/ars-etts.telekom.de/eTTS%3AMain/*"], 
+      "js": ["asamail.js"]
+    },
+	{
+      "matches": ["https://wtts.telekom.de/wtts/forms/ars-etts.telekom.de/eTTS:Main/*"], 
+      "js": ["asamail.js"]
+    },
+	{
+      "matches": ["https://wtts.telekom.de/wtts/forms/ars-etts/eTTS%3AMain/*"], 
+      "js": ["asamail.js"]
+    },
+	{
+      "matches": ["https://wtts.telekom.de/wtts/forms/ars-etts/eTTS:Main/*"], 
+      "js": ["asamail.js"]
+    },
+	{
+      "matches": ["https://wtts.telekom.de/wtts/forms/ars-etts/eTTS%3AMain/Web/*"], 
+      "js": ["asamail.js"]
+    },
+	{
+      "matches": ["https://wtts.telekom.de/wtts/forms/ars-etts/eTTS:Main/Web/*"], 
+      "js": ["asamail.js"]
+    },
+	{
+      "matches": ["https://wtts.telekom.de/wtts/forms/ars-etts.telekom.de/eTTS%3AMain/*"], 
+      "js": ["styleHeph.css"]
+    },
+	{
+      "matches": ["https://wtts.telekom.de/wtts/forms/ars-etts.telekom.de/eTTS:Main/*"], 
+      "js": ["styleHeph.css"]
+    },
+	{
+      "matches": ["https://wtts.telekom.de/wtts/forms/ars-etts/eTTS%3AMain/*"], 
+      "js": ["styleHeph.css"]
+    },
+	{
+      "matches": ["https://wtts.telekom.de/wtts/forms/ars-etts/eTTS:Main/*"], 
+      "js": ["styleHeph.css"]
+    },
+	{
+      "matches": ["https://wtts.telekom.de/wtts/forms/ars-etts/eTTS%3AMain/Web/*"], 
+      "js": ["styleHeph.css"]
+    },
+	{
+      "matches": ["https://wtts.telekom.de/wtts/forms/ars-etts/eTTS:Main/Web/*"], 
+      "js": ["styleHeph.css"]
+    },
+	{
+      "matches": ["https://wtts.telekom.de/wtts/forms/ars-etts.telekom.de/eTTS%3AMain/*"], 
+      "js": ["calllc.js"]
+    },
+	{
+      "matches": ["https://wtts.telekom.de/wtts/forms/ars-etts.telekom.de/eTTS:Main/*"], 
+      "js": ["calllc.js"]
+    },
+	{
+      "matches": ["https://wtts.telekom.de/wtts/forms/ars-etts/eTTS%3AMain/*"], 
+      "js": ["calllc.js"]
+    },
+	{
+      "matches": ["https://wtts.telekom.de/wtts/forms/ars-etts/eTTS:Main/*"], 
+      "js": ["calllc.js"]
+    },
+	{
+      "matches": ["https://wtts.telekom.de/wtts/forms/ars-etts/eTTS%3AMain/Web/*"], 
+      "js": ["calllc.js"]
+    },
+	{
+      "matches": ["https://wtts.telekom.de/wtts/forms/ars-etts/eTTS:Main/Web/*"], 
+      "js": ["calllc.js"]
+    },
+	{
+      "matches": ["https://wtts.telekom.de/wtts/forms/ars-etts.telekom.de/eTTS%3AMain/*"], 
+      "js": ["ctimerep.js"]
+    },
+	{
+      "matches": ["https://wtts.telekom.de/wtts/forms/ars-etts.telekom.de/eTTS:Main/*"], 
+      "js": ["ctimerep.js"]
+    },
+	{
+      "matches": ["https://wtts.telekom.de/wtts/forms/ars-etts/eTTS%3AMain/*"], 
+      "js": ["ctimerep.js"]
+    },
+	{
+      "matches": ["https://wtts.telekom.de/wtts/forms/ars-etts/eTTS:Main/*"], 
+      "js": ["ctimerep.js"]
+    },
+	{
+      "matches": ["https://wtts.telekom.de/wtts/forms/ars-etts/eTTS%3AMain/Web/*"], 
+      "js": ["ctimerep.js"]
+    },
+	{
+      "matches": ["https://wtts.telekom.de/wtts/forms/ars-etts/eTTS:Main/Web/*"], 
+      "js": ["ctimerep.js"]
+    },
+	{
+      "matches": ["https://wtts.telekom.de/wtts/forms/ars-etts.telekom.de/eTTS%3AMain/*"], 
+      "js": ["closer.js"]
+    },
+	{
+      "matches": ["https://wtts.telekom.de/wtts/forms/ars-etts.telekom.de/eTTS:Main/*"], 
+      "js": ["closer.js"]
+    },
+	{
+      "matches": ["https://wtts.telekom.de/wtts/forms/ars-etts/eTTS%3AMain/*"], 
+      "js": ["closer.js"]
+    },
+	{
+      "matches": ["https://wtts.telekom.de/wtts/forms/ars-etts/eTTS:Main/*"], 
+      "js": ["closer.js"]
+    },
+	{
+      "matches": ["https://wtts.telekom.de/wtts/forms/ars-etts/eTTS%3AMain/Web/*"], 
+      "js": ["closer.js"]
+    },
+	{
+      "matches": ["https://wtts.telekom.de/wtts/forms/ars-etts/eTTS:Main/Web/*"], 
+      "js": ["closer.js"]
+    },
+	{
+      "matches": ["https://wtts.telekom.de/wtts/forms/ars-etts.telekom.de/eTTS%3AMain/*"], 
+      "js": ["closertime.js"]
+    },
+	{
+      "matches": ["https://wtts.telekom.de/wtts/forms/ars-etts.telekom.de/eTTS:Main/*"], 
+      "js": ["closertime.js"]
+    },
+	{
+      "matches": ["https://wtts.telekom.de/wtts/forms/ars-etts/eTTS%3AMain/*"], 
+      "js": ["closertime.js"]
+    },
+	{
+      "matches": ["https://wtts.telekom.de/wtts/forms/ars-etts/eTTS:Main/*"], 
+      "js": ["closertime.js"]
+    },
+	{
+      "matches": ["https://wtts.telekom.de/wtts/forms/ars-etts/eTTS%3AMain/Web/*"], 
+      "js": ["closertime.js"]
+    },
+	{
+      "matches": ["https://wtts.telekom.de/wtts/forms/ars-etts/eTTS:Main/Web/*"], 
+      "js": ["closertime.js"]
+    },
+	{
+      "matches": ["https://wtts.telekom.de/wtts/forms/ars-etts.telekom.de/eTTS%3AMain/*"], 
+      "js": ["locid.js"]
+    },
+	{
+      "matches": ["https://wtts.telekom.de/wtts/forms/ars-etts.telekom.de/eTTS:Main/*"], 
+      "js": ["locid.js"]
+    },
+	{
+      "matches": ["https://wtts.telekom.de/wtts/forms/ars-etts/eTTS%3AMain/*"], 
+      "js": ["locid.js"]
+    },
+	{
+      "matches": ["https://wtts.telekom.de/wtts/forms/ars-etts/eTTS:Main/*"], 
+      "js": ["locid.js"]
+    },
+	{
+      "matches": ["https://wtts.telekom.de/wtts/forms/ars-etts/eTTS%3AMain/Web/*"], 
+      "js": ["locid.js"]
+    },
+	{
+      "matches": ["https://wtts.telekom.de/wtts/forms/ars-etts/eTTS:Main/Web/*"], 
+      "js": ["locid.js"]
+    }
+  ]
+}
+
